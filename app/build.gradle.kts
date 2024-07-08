@@ -64,8 +64,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3")
 
     kapt("androidx.lifecycle:lifecycle-compiler:2.8.3")
-    //noinspection GradleDependency
-    implementation("androidx.lifecycle:lifecycle-common-java8:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.8.3")
     implementation("androidx.lifecycle:lifecycle-service:2.8.3")
     implementation("androidx.lifecycle:lifecycle-process:2.8.3")
     implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:2.8.3")
@@ -76,4 +75,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
+
+    implementation("com.github.dewinjm:monthyear-picker:1.0.1")
+    implementation("com.google.android.flexbox:flexbox:3.0.0")
 }
